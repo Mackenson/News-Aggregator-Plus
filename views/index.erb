@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sinatra Template</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+  </head>
+  <body>
+    <h1>I'm a Sinatra App!</h1>
+     <% @news.each do |each_article| %>
+     <p>Description: <%= each_article.description %></p>
+     <p>Title: <%= each_article.title %></p>
+     <p>url: <a href = "<%= each_article.url %>" > <%= each_article.url %> </a></p>
+     <br />
+     <% end%>
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>

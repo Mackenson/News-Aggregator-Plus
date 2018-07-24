@@ -1,0 +1,23 @@
+#random_button {
+  width: 250px;
+  height: 150px;
+  margin-left: 35%;
+  border-radius: 25px;
+  font-size: 35px;
+  box-shadow: 5px 3px 2px 3px #9E9E9E;
+  background-color: lightgoldenrodyellow;
+}
+
+#random_button:active{
+  background-color: #03a9f4ad;
+  width: 500px;
+  height: 350px;
+  border-radius: 100%;
+  box-shadow: 10px 10px 10px 10px #9E9E9E;
+  font-size: 70px;
+  color: #ffffff;
+}
+
+#form{
+   
+}
